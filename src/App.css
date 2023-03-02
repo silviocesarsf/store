@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Lilita+One&family=Poppins:wght@300;400;500&family=Roboto:wght@300;400;500&family=Sassy+Frass&family=Space+Grotesk:wght@300;400;500;600&family=Zeyada&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+  min-height: 100vh;
+  width: 100%;
+  background: rgb(235, 234, 234);
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .title h1 {
+  font-weight: 300;
+}
+
+.list {
+  min-height: 80vh;
+  display: grid;
+  gap: 1rem;
+  place-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}

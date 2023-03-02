@@ -1,0 +1,79 @@
+.card {
+	width: 70vw;
+	height: 250px;
+	padding: 20px 40px;
+	background: white;
+	margin-bottom: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	/* text-align: center; */
+	box-shadow: 1px 2px 5px #d4d4d4;
+	position: relative;
+	border-radius: 10px;
+}
+
+.card .title-card {
+	font-size: 1.3em;
+	max-width: 450px;
+}
+
+.card .photo-card {
+	height: 250px;
+	/* width: 250px; */
+}
+
+.card .price {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.card .photo-card img {
+	position: absolute;
+	left: 1%;
+	bottom: 40%;
+	max-width: 100px;
+}
+
+.price .old-price span {
+	font-weight: 300;
+	font-size: 1em;
+	text-decoration: line-through;
+}
+
+.price .actual-price span {
+	background: rgb(226, 43, 43);
+	color: white;
+	padding: 5px 10px;
+	border-radius: 3px;
+}
+
+.buttons-bottom {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.buttons-bottom button {
+	border: none;
+	height: 40px;
+	width: 150px;
+	/* padding: 10px 20px; */
+	border-radius: 5px;
+	font-size: 0.9em;
+    cursor: pointer;
+}
+
+.buttons-bottom .button-buy button {
+	background: rgb(27, 12, 12);
+	color: white;
+}
+
+.buttons-bottom .button-add_to_cart button {
+	background: #c1c1c1;
+}
